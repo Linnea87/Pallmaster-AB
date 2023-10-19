@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 header {
-    background-color: #ffffff;
+    background-color:black;
     padding: 0 1rem;
-
+    position: fixed;
+    width: 100%;
 }
 .logo {
-    width: 100%;
+   max-width:50%;
     height: auto;
-   
-    
+    padding: inherit;
+
+  
 }
 main {
     background-color: #ffffff;
