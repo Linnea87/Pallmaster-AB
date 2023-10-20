@@ -7,18 +7,23 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
-header {
-    background-color:#ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    width: 100%;
-}
+
 img {
     max-width: 50%;
     height: auto;
     object-fit: cover;
+    margin: 10px 0;
+   
 }
+header {
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+  
+}
+
 main {
     background-color: #ffffff;
 }
