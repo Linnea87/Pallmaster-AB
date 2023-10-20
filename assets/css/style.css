@@ -12,7 +12,7 @@ body{
 }
 
 /* Styling of logo in header */
-img {
+#logo {
     float: left;
     max-width: 50%;
     height: auto;
