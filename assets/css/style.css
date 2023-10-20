@@ -18,6 +18,8 @@ header {
     width: 100%;
   
 }
+.hidden-heading {
+    display: none;
 /* Styling of logo in header */
 #logo {
     float: left;
