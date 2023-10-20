@@ -39,6 +39,10 @@ header {
 /* Main contant */
 main {
     background-color: #ffffff;
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+
 }
 
 /* Footer */
