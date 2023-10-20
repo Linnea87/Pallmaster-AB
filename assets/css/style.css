@@ -11,19 +11,19 @@ body{
 
 }
 
-/* Styling of logo in header */
-#logo {
-    float: left;
-    max-width: 50%;
-    height: auto;
-    object-fit: contain;
-}
 /* Header */
 header {
     padding: 0 1rem;
     position: fixed;
     width: 100%;
   
+}
+/* Styling of logo in header */
+#logo {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
 }
 /* Main contant */
 main {
