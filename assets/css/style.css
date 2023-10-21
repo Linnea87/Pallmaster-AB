@@ -52,7 +52,27 @@ color: #7B6F65;
 #menu > li {
     margin-bottom: 1em;
 }
-
+/* navigation bar with dropdown taggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #221E1C;
+    display: none;
+    top: 100%;
+}
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-lable {
+    font-size: 2rem;
+}
 /* Main contant */
 main {
     background-color: #ffffff;
