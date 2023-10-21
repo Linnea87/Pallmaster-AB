@@ -45,12 +45,17 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
     display: flex;
-
 }
 
 /* Footer */
-.address {
+address {
     text-align: left;
     width: 50%;
     margin: 10px;
+}
+#phone-number {
+    text-align: left;
+        width: 50%;
+        margin: 10px;
+        margin-top: auto;
 }
