@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-
 }
 
 /* Header */
@@ -20,11 +19,12 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #221E1C;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+   align-items: baseline;
 }
 
 .hidden-heading {
@@ -39,24 +39,20 @@ header {
     object-fit: contain;
 }
 /* styling of Navigation bar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
-    float: right;
+header a {
+text-decoration: none;
+color: #7B6F65;
 }
-li {
-    display: inline-block;
+#menu {
+    font-size: 100%;
+     letter-spacing: 4px;
+    list-style-type: none;
+
+}
+#menu > li {
+    margin-bottom: 1em;
 }
 
-li a {
-    display: block;
-    color: #7B6F65;
-text-align: center;
-padding: 18px 16px;
-text-decoration: none;
-}
 /* Main contant */
 main {
     background-color: #ffffff;
