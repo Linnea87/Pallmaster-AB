@@ -38,7 +38,22 @@ header {
     height: auto;
     object-fit: contain;
 }
+/* styling of Navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    float: right;
+}
+li {
+    display: inline-block;
+}
 
+li a {
+    display: block;
+    color: #7B6F65
+}
 /* Main contant */
 main {
     background-color: #ffffff;
