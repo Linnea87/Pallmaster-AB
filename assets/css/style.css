@@ -59,6 +59,6 @@ footer {
     margin: 10px;
     margin-left: 0
 }
-a {
+footer > a {
     text-decoration: none;
 }
