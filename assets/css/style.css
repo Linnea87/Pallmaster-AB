@@ -52,7 +52,10 @@ li {
 
 li a {
     display: block;
-    color: #7B6F65
+    color: #7B6F65;
+text-align: center;
+padding: 18px 16px;
+text-decoration: none;
 }
 /* Main contant */
 main {
