@@ -1,5 +1,6 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+/* General styles */
 
 * {
     padding: 0;
@@ -16,14 +17,15 @@ body {
 
 /* Styling of logo in header */
 #logo {
-    display:flex;
-    max-width: 50%;
+    display: flex;
+    width: 100%;
     height: auto;
     object-fit: contain;
     align-items: baseline;
     justify-content: space-between;
     padding: 0;
 }
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -34,8 +36,8 @@ header {
     box-shadow: 0 2px 2px #221E1C;
     display: flex;
     justify-content: space-between;
-   align-items: baseline;
-  
+    align-items: baseline;
+
 }
 
 .hidden-heading {
@@ -45,18 +47,25 @@ header {
 
 /* styling of Navigation bar */
 header a {
-text-decoration: none;
-color: #7B6F65;
+    text-decoration: none;
+    color: #7B6F65;
 }
+
 #menu {
     font-size: 100%;
-     letter-spacing: 4px;
+    letter-spacing: 4px;
     list-style-type: none;
 
 }
-#menu > li {
+
+#menu>li {
     margin-bottom: 1em;
 }
+
+.active {
+    border-bottom: 1px solid #221e1c;
+}
+
 /* navigation bar with dropdown taggle */
 nav {
     position: absolute;
@@ -68,16 +77,20 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-lable {
     font-size: 2rem;
 }
+
 /* Main contant */
 main {
     background-color: #ffffff;
@@ -91,13 +104,45 @@ main {
 footer {
     display: block;
     font-style: normal;
-     max-width: 50%;
-     height: auto;
+    max-width: 50%;
+    height: auto;
     text-align: center;
     font-size: 10px;
     margin: 10px;
     margin-left: 0;
 }
-footer > a {
+
+footer>a {
     text-decoration: none;
+}
+
+/* Media query: tablets and larger (768px and up */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1 rem;
+    }
+
+    .nav-toggle-lable {
+        display: none;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 79px;
+    }
+
 }
