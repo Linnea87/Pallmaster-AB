@@ -16,15 +16,7 @@ body {
 }
 
 /* Styling of logo in header */
-#logo {
-    display: flex;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    align-items: baseline;
-    justify-content: space-between;
-    padding: 0;
-}
+
 
 /* Header */
 header {
@@ -39,7 +31,13 @@ header {
     align-items: baseline;
 
 }
-
+img {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    display: inline;
+    object-fit: contain;
+}
 .hidden-heading {
     display: none;
 }
