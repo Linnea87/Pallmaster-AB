@@ -35,7 +35,7 @@ header a {
     text-decoration: none;
     color: #7b6f65;
 }
-    
+
 
 .hidden-heading {
     display: none;
@@ -46,26 +46,25 @@ img {
     height: auto;
     display: inline;
     object-fit: contain;
-   
 }
-
-
 
 /* Style to navbar */
 
 ul {
     list-style-type: none;
-   letter-spacing: 4px;
+    letter-spacing: 4px;
     float: right;
 }
- ul >li {
+
+ul>li {
     margin-bottom: 1em;
-   }
+}
 
 .active {
-border-bottom: 1px solid  #221E1C;
+    border-bottom: 1px solid #221E1C;
 
 }
+
 /* Footer */
 
 footer {
