@@ -15,9 +15,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Styling of logo in header */
-
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -40,7 +37,7 @@ header a {
 .hidden-heading {
     display: none;
 }
-
+/* Styling of logo in header */
 img {
     max-width: 50%;
     height: auto;
