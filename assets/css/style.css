@@ -23,80 +23,54 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #221E1C;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+   
 
 }
 img {
     max-width: 50%;
     height: auto;
-    position: relative;
     display: inline;
     object-fit: contain;
+    justify-content: space-between;
+    position: relative;
+
 }
 .hidden-heading {
     display: none;
 }
 
+/* Style to navbar */
 
-/* styling of Navigation bar */
-header a {
-    text-decoration: none;
-    color: #7B6F65;
-}
-
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
+ul {
     list-style-type: none;
-
+    margin: 0;
+    padding: 0;
+    width: 100%px;
+}
+ li {
+    display: inline-block;
+    text-align: center;
+ }
+li a {
+    display: block;
+    color: #7b6f65;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-#menu>li {
-    margin-bottom: 1em;
+li a:hover {
+    background-color: #221E1C;
+    color: #d1cac7;
 }
 
 .active {
-    border-bottom: 1px solid #221e1c;
+    background-color: #221E1C;
+    color: #d1cac7;
 }
-
-/* navigation bar with dropdown taggle */
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #221E1C;
-    display: none;
-    top: 100%;
-}
-
-/* nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-lable {
-    font-size: 2rem;
-}
-
-/* Main contant */
-main {
-    background-color: #ffffff;
-    flex: 1 0 auto;
-    margin-top: 47px;
-    display: flex;
-}
-
 /* Footer */
 
 footer {
@@ -112,35 +86,4 @@ footer {
 
 footer>a {
     text-decoration: none;
-}
-
-/* Media query: tablets and larger (768px and up */
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1 rem;
-    }
-
-    .nav-toggle-lable {
-        display: none;
-    }
-
-    /* Main content */
-    main {
-        margin-top: 79px;
-    }
-
 }
