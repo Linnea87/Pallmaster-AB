@@ -48,29 +48,52 @@ img {
     object-fit: contain;
 }
 
-/* Style to navbar */
+/* Styling navbar */
 
 ul {
+    font-size: 110%;
     list-style-type: none;
-    letter-spacing: 4px;
-    float: left;
+    letter-spacing: 4px;  
 }
+   
 
 ul> li {
     margin-bottom: 1em;
-    
 }
 
 .active {
     border-bottom: 1px solid #221E1C;
+}
+ /* styling dropdown effect to navbar */
+ nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #221E1C;
+    display: none;
+    top:100%;
+ }
+ #nav-drop:checked~nav {
+    display: block;
+}
+#nav-drop {
+    display: none;
+}
+.nav-drop-icon {
+    font-size: 2 rem;
+    color: #221E1C;
 
 }
+
 /* Main content */
 main {
+/* push footer down */
 flex: 1 0 auto;
 }
-/* Footer */
 
+/* Footer */
 footer {
     display: block;
     font-style: normal;
