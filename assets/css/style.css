@@ -53,20 +53,21 @@ img {
 ul {
     list-style-type: none;
     letter-spacing: 4px;
-    float: right;
+    float: left;
 }
 
 ul> li {
     margin-bottom: 1em;
-    font-size: 50%;
+    
 }
 
 .active {
     border-bottom: 1px solid #221E1C;
 
 }
+/* Main content */
 main {
-
+flex: 1 0 auto;
 }
 /* Footer */
 
