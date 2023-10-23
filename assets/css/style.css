@@ -1,28 +1,28 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
-/* General styles */
 
+/* Overide defualt browser styles and add General styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Styling body and header using code from love-running with some own modification */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    background-color: #F5F4F3;
 }
 
-/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
     z-index: 99;
-    box-shadow: 0 2px 2px #221E1C;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -31,18 +31,16 @@ header {
 header a {
     text-decoration: none;
     color: #7b6f65;
+    
 }
 
-
-.hidden-heading {
-    display: none;
-}
-/* Styling of logo in header */
+/* Styling of my own designd logo in header */
 img {
-    max-width: 50%;
+    max-width: 25vw;
     height: auto;
     display: inline;
     object-fit: contain;
+
 }
 
 /* Styling navbar */
@@ -50,11 +48,12 @@ img {
 ul {
     font-size: 110%;
     list-style-type: none;
-    letter-spacing: 4px;  
+    letter-spacing: 4px; 
+    text-align: center; 
 }
    
 
-ul> li {
+ul > li {
     margin-bottom: 1em;
 }
 
@@ -68,7 +67,6 @@ ul> li {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #221E1C;
     display: none;
     top:100%;
  }
@@ -92,14 +90,14 @@ flex: 1 0 auto;
 
 /* Footer */
 footer {
-    display: block;
+    background-color: #ffffff;
     font-style: normal;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     text-align: center;
     font-size: 10px;
-    margin: 10px;
-    margin-left: 0;
+   
+   
 }
 
 footer>a {
