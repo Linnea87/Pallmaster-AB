@@ -77,9 +77,8 @@ ul > li {
     display: none;
 }
 .nav-drop-icon {
-    font-size: 2 rem;
-    color: #221E1C;
-
+    font-size:2rem;
+    color:#221E1C;
 }
 
 /* Main content */
@@ -96,10 +95,36 @@ footer {
     height: auto;
     text-align: center;
     font-size: 10px;
-   
-   
-}
 
+    
+}
 footer>a {
     text-decoration: none;
+}
+/* Media query: tablets and larger (768px and up) borrowd from love running */
+@media screen and (min-width: 768px){
+    
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    ul {
+      display: flex;
+    }
+    
+    ul > li {
+        padding-left: 1rem;
+    }
+
+    .nav-drop-icon {
+    display: none;
+}
+main {
+    margin-top: 79px;
+  }
+
 }
