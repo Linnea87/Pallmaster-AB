@@ -85,6 +85,20 @@ ul > li {
 main {
 /* push footer down */
 flex: 1 0 auto;
+margin-top: 47 px;
+}
+
+/* Hero image */
+#hero-outer {
+   height:600px;
+    width: 100%;
+    position: relative
+}
+
+#hero-image {
+    height:600px;
+    width:100px;
+    background:url("../images/iStock-1185718227.jpg")no-repeat center center/cover;
 }
 
 /* Footer */
