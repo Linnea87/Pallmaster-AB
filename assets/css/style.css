@@ -94,12 +94,36 @@ flex-direction: column;
 
 /* Hero image */
 
-#hero-image {
+#hero {
     height:600px;
     width: 100%;
-    background:url("../images/iStock-1185718227.jpg")no-repeat center center/cover;
+    background:url("../images/iStock-1185718227.webp")no-repeat center center/cover;
     object-fit: contain;
 }
+#cover-text {
+    
+    font-size: 130%;
+    font-family: 'Roboto', serif;
+    font-weight: 100;
+    color:#ffffff;
+    bottom: 40px;
+    width: 90%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 5px;
+    border-radius: 10%;
+    background-color: rgba(127, 113, 113, 0.7);
+    position: absolute;
+}
+  
+ #cover-text > h2{
+font-size: 100%;
+  font-style:italic;
+  text-transform:lowercase
+ }
+
+
+
 
 
 /* Footer */
