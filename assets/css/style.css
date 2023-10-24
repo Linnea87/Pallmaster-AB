@@ -17,8 +17,14 @@ body {
     background-color: #F5F4F3;
     font-weight: 300;
 }
-
-header {
+h1,
+h2,
+h3 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+    header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -106,7 +112,7 @@ flex-direction: column;
 #cover-text {
     background-color: rgba(127, 113, 113, 0.7);
     text-transform: uppercase;
-     font-size: 130%;
+     font-size: 100%;
     font-weight: 100;
     color:#ffffff;
     bottom: 40px;
@@ -119,12 +125,43 @@ flex-direction: column;
     position: absolute;
 }
   
- #cover-text > h2{
+ #cover-text > p {
 font-size: 100%;
   font-style:italic;
   text-transform:lowercase
  }
 
+/* Service section */
+#service {
+    width: 90%;
+    margin: 20px auto;
+}
+#service h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280;
+}
+
+#left-why {
+padding-top: 30px;
+width: 33%;
+float: left;
+}
+
+#right-why {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+
+}
+footer>a {
+    text-decoration: none;
+}
 /* Footer */
 footer {
     background-color: #ffffff;
@@ -133,10 +170,6 @@ footer {
     height: auto;
     text-align: center;
     font-size: 10px;
-}
-
-footer>a {
-    text-decoration: none;
 }
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
