@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #F5F4F3;
+    font-weight: 300;
 }
 
 header {
@@ -85,21 +86,21 @@ ul > li {
 main {
 /* push footer down */
 flex: 1 0 auto;
-margin-top: 47 px;
+margin-top: 47px;
+display: flex;
+flex-direction: column;
 }
 
+
 /* Hero image */
-#hero-outer {
-   height:600px;
-    width: 100%;
-    position: relative
-}
 
 #hero-image {
     height:600px;
-    width:100px;
+    width: 100%;
     background:url("../images/iStock-1185718227.jpg")no-repeat center center/cover;
+    object-fit: contain;
 }
+
 
 /* Footer */
 footer {
@@ -109,14 +110,13 @@ footer {
     height: auto;
     text-align: center;
     font-size: 10px;
-
-    
 }
+
 footer>a {
     text-decoration: none;
 }
 /* Media query: tablets and larger (768px and up) borrowd from love running */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     
     nav {
         display: block;
@@ -136,9 +136,6 @@ footer>a {
 
     .nav-drop-icon {
     display: none;
+    }
 }
-main {
-    margin-top: 79px;
-  }
 
-}
