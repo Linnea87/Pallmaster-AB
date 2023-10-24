@@ -24,6 +24,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
+    box-shadow: 0 2px 2px #221e1c;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -70,6 +71,7 @@ ul > li {
     padding: 0 1rem;
     display: none;
     top:100%;
+    box-shadow: 0 2px 2px #221e1c;
  }
  #nav-drop:checked~nav {
     display: block;
@@ -92,7 +94,7 @@ flex-direction: column;
 }
 
 
-/* Hero image */
+/* Hero section code from love running with some own modification */
 
 #hero {
     height:600px;
@@ -100,19 +102,20 @@ flex-direction: column;
     background:url("../images/iStock-1185718227.webp")no-repeat center center/cover;
     object-fit: contain;
 }
+
 #cover-text {
-    
-    font-size: 130%;
-    font-family: 'Roboto', serif;
+    background-color: rgba(127, 113, 113, 0.7);
+    text-transform: uppercase;
+     font-size: 130%;
     font-weight: 100;
     color:#ffffff;
     bottom: 40px;
-    width: 90%;
+    width: 80%;
     min-height: 200px;
     padding-top: 40px;
-    padding-left: 5px;
+    padding-left: 10px;
     border-radius: 10%;
-    background-color: rgba(127, 113, 113, 0.7);
+   
     position: absolute;
 }
   
@@ -121,10 +124,6 @@ font-size: 100%;
   font-style:italic;
   text-transform:lowercase
  }
-
-
-
-
 
 /* Footer */
 footer {
@@ -141,8 +140,7 @@ footer>a {
 }
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
-    
-    nav {
+     nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -161,5 +159,18 @@ footer>a {
     .nav-drop-icon {
     display: none;
     }
+   
+    main {
+        margin-top: 79px;
+    }
+       /* Hero */
+        #cover-text {
+            width: 300px;
+            right: 50px;
+            text-align: center;
+            
+        }
+
+    
 }
 
