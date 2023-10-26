@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #F5F4F3;
-   
+    font-weight: 300;
 }
 h1,
 h2,
@@ -51,16 +51,17 @@ img {
 
 }
 
-/* Styling navbar */
+/* Styling navbar using love runnig and w3schools.com */
 
 ul {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px; 
     text-align: center; 
+    margin: 0;
+    padding: 0;  
 }
-   
-
+ 
 ul > li {
     margin-bottom: 1em;
 }
@@ -68,6 +69,11 @@ ul > li {
 .active {
     border-bottom: 1px solid #221E1C;
 }
+a:hover{
+    background-color:#E1DDDB;
+    border-radius: 4px;
+}
+
  /* styling dropdown effect to navbar */
  nav {
     position: absolute;
@@ -89,7 +95,13 @@ ul > li {
     font-size:2rem;
     color:#221E1C;
 }
-
+.nav-drop:hover {
+    background: #d1cac7;
+    border-radius: 1px;
+    border-bottom: 1px solid;
+   
+    
+}
 /* Main content */
 main {
 /* push footer down */
@@ -121,8 +133,7 @@ flex-direction: column;
     padding-top: 40px;
     padding-left: 10px;
     border-radius: 10%;
-   
-    position: absolute;
+   position: absolute;
 }
   
  #cover-text > p {
@@ -135,26 +146,30 @@ font-size: 100%;
 #service {
     width: 90%;
     margin: 20px auto;
+
 }
 #service h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280;
+    
 }
 
-#offers-left >, #offers-right > div {
-line-height: 20px;
+#offer-left > div, 
+#offer-right > div {
+line-height: 30px;
 margin-bottom: 20px;
+
+
+ }
+
+#offer p {
+    padding: 0 20x;
 }
 
-# offers p {
-    padding: 0 20px;
-}
-
-#offers hr {
-    border-top: 1px solid #3a3a3a;
+#offer hr {
+    border-top: 1px solid #221E1C;
     margin: 5px 0;
-
 }
 
 /* Footer */
@@ -166,6 +181,7 @@ footer {
     text-align: center;
     font-size: 10px;
 }
+
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
      nav {
@@ -189,16 +205,28 @@ footer {
     }
    
     main {
-        margin-top: 79px;
+        margin-top: 79px; 
     }
-       /* Hero */
-        #cover-text {
-            width: 300px;
-            right: 50px;
-            text-align: center;
-            
-        }
+    /* Hero */
+    #cover-text {
+      width: 300px;
+    right: 50px;
+    }
+   /* offer section */
+    #offer-left,
+    #offer-right  {
+  display: flex;
+   flex-direction: column;
+   width 100%
+    }
 
-    
+    #offer-left > div,
+    #offer-right > div {
+    width: 75%;
+    }
+    #offer-right {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
