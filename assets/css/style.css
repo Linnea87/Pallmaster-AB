@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    background-color: #F5F4F3;
+    background-color:#E1DDDB;
     font-weight: 300;
 }
 h1,
@@ -146,6 +146,7 @@ font-size: 100%;
 #service {
     width: 90%;
     margin: 20px auto;
+   
 
 }
 #service h2 {
@@ -159,9 +160,7 @@ font-size: 100%;
 #offer-right > div {
 line-height: 30px;
 margin-bottom: 20px;
-
-
- }
+}
 
 #offer p {
     padding: 0 20x;
@@ -172,6 +171,7 @@ margin-bottom: 20px;
     margin: 5px 0;
 }
 
+
 /* Footer */
 footer {
     background-color: #ffffff;
@@ -181,6 +181,7 @@ footer {
     text-align: center;
     font-size: 10px;
 }
+
 
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
@@ -217,8 +218,8 @@ footer {
     #offer-right  {
   display: flex;
    flex-direction: column;
-   width 100%
-    }
+   width: 100%;
+}
 
     #offer-left > div,
     #offer-right > div {
