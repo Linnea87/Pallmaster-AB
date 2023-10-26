@@ -171,6 +171,27 @@ margin-bottom: 20px;
     margin: 5px 0;
 }
 
+/* styling offer image inspiration from love running */
+#circle-cover-bg {
+ background: url('../images/pallet.webp') no-repeat center center;
+ height: 90vw;
+ width: 90vw;
+margin-bottom: 20px;
+border-radius: 50%;
+border-width: 2px;
+max-width: 300px;
+ max-height:  300px;
+ border-style: solid;
+border-color: #7b6f65;
+padding: 10;
+margin: 0 auto;
+  
+}
+#offer-image { 
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 /* Footer */
 footer {
