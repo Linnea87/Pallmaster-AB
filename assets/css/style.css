@@ -14,16 +14,18 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    color: #221E1C;
     background-color: #E1DDDB;
-    font-weight: 300;
+
 }
 
 h1,
 h2,
 h3 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+
 }
 
 header {
@@ -40,15 +42,14 @@ header {
 
 header a {
     text-decoration: none;
-    color: #7b6f65;
+    color: #221E1C;
 
 }
 
 /* Styling of my own designd logo in header */
 img {
-    max-width: 25vw;
+    max-width: 50vw;
     height: auto;
-    display: inline;
     object-fit: contain;
 
 }
@@ -56,9 +57,10 @@ img {
 /* Styling navbar using love runnig and w3schools.com */
 
 ul {
-    font-size: 110%;
+    font-size: 130%;
+    font-weight: 300; 
     list-style-type: none;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -69,7 +71,9 @@ ul>li {
 }
 
 .active {
-    border-bottom: 1px solid #221E1C;
+    background-color: #E1DDDB;
+    border-radius: 4px;
+
 }
 
 a:hover {
@@ -100,12 +104,13 @@ nav {
 .nav-drop-icon {
     font-size: 2rem;
     color: #221E1C;
+   
 }
 
 .nav-drop:hover {
     background: #d1cac7;
-    border-radius: 1px;
-    border-bottom: 1px solid;
+    border-radius: 4px;
+   
 
 
 }
@@ -126,36 +131,38 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/iStock-1185718227.webp")no-repeat center center/cover;
-
+    position: relative;
 }
 
 #cover-text {
     background-color: rgba(127, 113, 113, 0.7);
-    text-transform: uppercase;
-    font-size: 100%;
-    font-weight: 100;
+    font-size: 130%;
     color: #ffffff;
-    bottom: 40px;
+    bottom: 30px;
     width: 80%;
     min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    border-radius: 10%;
+    padding-top: 25px;
+    padding-left: 5px;
+    border-radius: 10px;
     position: absolute;
+    text-align: center;
+   
+}
+
+#cover-text h1 {
+    color: #ffffff;
 }
 
 #cover-text>p {
-    font-size: 100%;
     font-style: italic;
-    text-transform: lowercase
+
+
 }
 
-/* Service section */
+/* Style of service section */
 #service {
     width: 90%;
     margin: 20px auto;
-
-
 }
 
 #service h2 {
@@ -216,6 +223,10 @@ footer {
 
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
+    img {
+        width: 25vw;
+        object-fit: contain;
+    }
     nav {
         display: block;
         position: relative;
@@ -226,10 +237,13 @@ footer {
 
     ul {
         display: flex;
+        
     }
 
     ul>li {
-        padding-left: 1rem;
+        padding-left: 1rem;  
+       
+    
     }
 
     .nav-drop-icon {
@@ -244,6 +258,7 @@ footer {
     #cover-text {
         width: 300px;
         right: 50px;
+       
     }
 
     /* offer section */
@@ -259,8 +274,13 @@ footer {
         width: 75%;
     }
 
-    #offer-right {
+    #offer-right div {
         text-align: end;
         align-self: flex-end;
+        
+    
     }
+}
+@media screen and (min-width: 992px){
+
 }
