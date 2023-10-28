@@ -14,9 +14,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    background-color:#E1DDDB;
+    background-color: #E1DDDB;
     font-weight: 300;
 }
+
 h1,
 h2,
 h3 {
@@ -24,7 +25,8 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-    header {
+
+header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -39,7 +41,7 @@ h3 {
 header a {
     text-decoration: none;
     color: #7b6f65;
-    
+
 }
 
 /* Styling of my own designd logo in header */
@@ -56,114 +58,121 @@ img {
 ul {
     font-size: 110%;
     list-style-type: none;
-    letter-spacing: 4px; 
-    text-align: center; 
+    letter-spacing: 4px;
+    text-align: center;
     margin: 0;
-    padding: 0;  
+    padding: 0;
 }
- 
-ul > li {
+
+ul>li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #221E1C;
 }
-a:hover{
-    background-color:#E1DDDB;
+
+a:hover {
+    background-color: #E1DDDB;
     border-radius: 4px;
 }
 
- /* styling dropdown effect to navbar */
- nav {
+/* styling dropdown effect to navbar */
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     display: none;
-    top:100%;
+    top: 100%;
     box-shadow: 0 2px 2px #221e1c;
- }
- #nav-drop:checked~nav {
+}
+
+#nav-drop:checked~nav {
     display: block;
 }
+
 #nav-drop {
     display: none;
 }
+
 .nav-drop-icon {
-    font-size:2rem;
-    color:#221E1C;
+    font-size: 2rem;
+    color: #221E1C;
 }
+
 .nav-drop:hover {
     background: #d1cac7;
     border-radius: 1px;
     border-bottom: 1px solid;
-   
-    
+
+
 }
+
 /* Main content */
 main {
-/* push footer down */
-flex: 1 0 auto;
-margin-top: 47px;
-display: flex;
-flex-direction: column;
+    /* push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /* Hero section code from love running with some own modification */
 
 #hero {
-    height:600px;
+    height: 600px;
     width: 100%;
-    background:url("../images/iStock-1185718227.webp")no-repeat center center/cover;
-    
+    background: url("../images/iStock-1185718227.webp")no-repeat center center/cover;
+
 }
 
 #cover-text {
     background-color: rgba(127, 113, 113, 0.7);
     text-transform: uppercase;
-     font-size: 100%;
+    font-size: 100%;
     font-weight: 100;
-    color:#ffffff;
+    color: #ffffff;
     bottom: 40px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     border-radius: 10%;
-   position: absolute;
+    position: absolute;
 }
-  
- #cover-text > p {
-font-size: 100%;
-  font-style:italic;
-  text-transform:lowercase
- }
+
+#cover-text>p {
+    font-size: 100%;
+    font-style: italic;
+    text-transform: lowercase
+}
 
 /* Service section */
 #service {
     width: 90%;
     margin: 20px auto;
-   
+
 
 }
+
 #service h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280;
-    
+    font-size: 280%;
+
 }
 
-#offer-left > div, 
-#offer-right > div {
-line-height: 30px;
-margin-bottom: 20px;
+#offer-left>div,
+#offer-right>div {
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
 #offer p {
-    padding: 0 20x;
+    padding: 0 20px;
 }
 
 #offer hr {
@@ -173,24 +182,25 @@ margin-bottom: 20px;
 
 /* styling offer image inspiration from love running */
 #circle-cover-bg {
- background: url('../images/pallet.webp') no-repeat center center;
- height: 90vw;
- width: 90vw;
-margin-bottom: 20px;
-border-radius: 50%;
-border-width: 2px;
-max-width: 300px;
- max-height:  300px;
- border-style: solid;
-border-color: #7b6f65;
-padding: 10;
-margin: 0 auto;
-  
+    background: url('../images/pallet.webp') no-repeat center center;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border-width: 2px;
+    max-width: 300px;
+    max-height: 300px;
+    border-style: solid;
+    border-color: #7b6f65;
+    padding: 10px;
+    margin: 0 auto;
+
 }
-#offer-image { 
-display: flex;
-align-items: center;
-justify-content: center;
+
+#offer-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -206,7 +216,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
-     nav {
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -215,40 +225,42 @@ footer {
     }
 
     ul {
-      display: flex;
+        display: flex;
     }
-    
-    ul > li {
+
+    ul>li {
         padding-left: 1rem;
     }
 
     .nav-drop-icon {
-    display: none;
+        display: none;
     }
-   
+
     main {
-        margin-top: 79px; 
+        margin-top: 79px;
     }
+
     /* Hero */
     #cover-text {
-      width: 300px;
-    right: 50px;
+        width: 300px;
+        right: 50px;
     }
-   /* offer section */
-    #offer-left,
-    #offer-right  {
-  display: flex;
-   flex-direction: column;
-   width: 100%;
-}
 
-    #offer-left > div,
-    #offer-right > div {
-    width: 75%;
+    /* offer section */
+    #offer-left,
+    #offer-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
+
+    #offer-left>div,
+    #offer-right>div {
+        width: 75%;
+    }
+
     #offer-right {
         text-align: end;
         align-self: flex-end;
     }
 }
-
