@@ -133,14 +133,14 @@ main {
 /* Hero section code from love running with some own modification */
 
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url("../images/iStock-1185718227.webp")no-repeat center center/cover;
+    background: url("../images/pallet3.webp")no-repeat center center/cover;
     position: relative;
 }
 
 #cover-text {
-    background-color: rgba(127, 113, 113, 0.7);
+    background-color: rgba(62, 56, 50, 0.816);
     font-size: 130%;
     color: #ffffff;
     bottom: 30px;
@@ -164,7 +164,7 @@ main {
 
 }
 
-/* Style of service section */
+/* service section */
 #service {
     width: 90%;
     margin: 20px auto;
@@ -214,6 +214,20 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* styling of About Us page */
+#fact {
+   font-family: 'Roboto', sans-serif;
+    width: 90%;
+    padding-top: 20px;
+    margin: 10px;
+
+}
+#fact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
 }
 
 /* Footer */
