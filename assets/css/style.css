@@ -17,6 +17,7 @@ body {
     color: #221E1C;
     background-color: #E1DDDB;
 
+
 }
 
 h1,
@@ -48,8 +49,8 @@ header a {
 
 /* Styling of my own designd logo in header */
 img {
-    width: 40vw;
-    height:auto ;
+    width: 100px;
+    height: auto;
     margin: 0 1rem;
     object-fit: contain;
 
@@ -59,13 +60,13 @@ img {
 
 ul {
     font-size: 130%;
-    font-weight: 300; 
+    font-weight: 300;
     list-style-type: none;
     letter-spacing: 1px;
     text-align: center;
     margin: 0;
     padding: 0;
-    
+
 }
 
 ul>li {
@@ -93,12 +94,12 @@ nav {
     display: none;
     top: 100%;
     box-shadow: 0 2px 2px #221e1c;
-    
+
 }
 
 #nav-drop:checked~nav {
     display: block;
-    
+
 }
 
 #nav-drop {
@@ -108,21 +109,20 @@ nav {
 .nav-drop-icon {
     font-size: 2rem;
     color: #221E1C;
-   
-   
+
+
 }
 
 .nav-drop:hover {
     background: #d1cac7;
     border-radius: 4px;
-   
+
 
 
 }
 
 /* Main content */
 main {
-    /* push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
     display: flex;
@@ -151,7 +151,7 @@ main {
     border-radius: 10px;
     position: absolute;
     text-align: center;
-   
+
 }
 
 #cover-text h1 {
@@ -168,6 +168,7 @@ main {
 #service {
     width: 90%;
     margin: 20px auto;
+
 }
 
 #service h2 {
@@ -177,17 +178,17 @@ main {
 
 }
 
-#offer-left>div,
-#offer-right>div {
-    line-height: 30px;
+#offers-left>div,
+#offers-right>div {
+    line-height: 20px;
     margin-bottom: 20px;
 }
 
-#offer p {
+#service-offers p{
     padding: 0 20px;
 }
 
-#offer hr {
+#service-offers hr {
     border-top: 1px solid #221E1C;
     margin: 5px 0;
 }
@@ -209,7 +210,7 @@ main {
 
 }
 
-#offer-image {
+#service-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,77 +218,109 @@ main {
 
 /* Footer */
 footer {
+    padding: 20px 0;
+    display: flex;
     background-color: #ffffff;
-    font-style: normal;
-    max-width: 100%;
-    height: auto;
+    justify-content: space-evenly;
+    display: block;
     text-align: center;
-    font-size: 10px;
+
+
+
 }
 
 
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
-    img{
-     width: 20vw;
-     margin-bottom: -1rem;
-    }
+   img {
+    width: 140px;
+    height: auto;
+   }
     nav {
-       padding-right: 1rem;
-       display: block;
-       position: relative;
-       box-shadow: none;
-       width: fit-content;
+        padding-right: 1rem;
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
     }
 
     ul {
         display: flex;
-        
+
     }
 
     ul>li {
-        padding-left: 1rem;  
-       
-    
+        padding-left: 1rem;
+
+
     }
 
     .nav-drop-icon {
         display: none;
     }
 
-    main {
-        margin-top: 79px;
-    }
+  main {
+    margin-top: 79px;
+  }
 
     /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
-       
+
     }
 
-    /* offer section */
-    #offer-left,
-    #offer-right {
+    /* Service section */
+    #offers-left,
+    #offers-right {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #offer-left>div,
-    #offer-right>div {
+    #offers-left>div,
+    #offers-right>div {
         width: 75%;
     }
 
-    #offer-right div {
+    #offers-right div {
         text-align: end;
         align-self: flex-end;
-        
-    
+
+
     }
 }
-@media screen and (min-width: 992px){
-     img{
-        margin-bottom: -1.3rem ;
-     }
+    
+
+@media screen and (min-width: 1200px) {
+  
+    #service-offers {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #service-offers > div {
+        flex: 1;
+    }
+    #service-image {
+        order: 0;
+    }
+    
+    #offers-right {
+        order: 1;
+
+    }
+
+    #offers-right > div {
+        align-self: flex-start;   
+    }
+    
+    #offers-left {
+    align-self: flex-end;
+    }
+
+    
+
+
 }
