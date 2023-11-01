@@ -50,7 +50,15 @@ The business owner will;
 
 ### wierframes
 I created wierframes from balsamic to visualize what I wanted the finished design to look like. I started creating wierframes for
- mobile devices first because I wanted to stick with the mobile-first approach, then I created wierframes for tablet and computer screen sizes## Color Reference
+ mobile devices first because I wanted to stick with the mobile-first approach, then I created wierframes for tablet and computer screen sizes.
+ 
+ <img src="docs/readme_images/Home.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
+
+<img src="docs/readme_images/About us.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
+
+ <img src="docs/readme_images/Gallery.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
+
+ <img src="docs/readme_images/Contact.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
