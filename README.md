@@ -1,39 +1,81 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pallmaster AB
 
-Welcome,
+This website is intended to provide comprehensive information about the company Pallmaster AB. As a new and existing customer, you get to take part in the company's history, who runs the company now, what service the company offers and how you get in touch with the company. As a customer, you also get to see pictures of some of the company's various products.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Planning
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### Goals
 
-## Codeanywhere Reminders
+As Owner of the website I want;
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+* To deliver an inviting website where you easy can find information about the company and their services.
 
-`python3 -m http.server`
+* Provide background information about the company.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Encourage customers to contact the company and purchase their services.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The business owner will;
 
-`http_server`
+* Create an online presentation about their company.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Inform both existing and new customers about their services.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Giv Information about their location.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Provide a method to get in touch with them.
 
-To log into the Heroku toolbelt CLI:
+ The User Experience;
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* It should be easy to navigate between the different pages and get back to the start page with one click.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* It should be easy to see which page you are on.
 
----
+* It should be easy to go back to the navigation menu when you are at the bottom of the page.
 
-Happy coding!
+* You should be able to see the website and read its information on different screen sizes.
+
+* See pictures throughout the website especially on the production.
+
+ I want the Users;
+
+* To find the company's location and contact information.
+
+* Find information about the company.
+
+* Read about the company's services.
+
+* Find out what the differences is about Pallmaster´s company and services compared to others.  
+
+## Design
+
+### wierframes
+I created wierframes from balsamic to visualize what I wanted the finished design to look like. I started creating wierframes for
+ mobile devices first because I wanted to stick with the mobile-first approach, then I created wierframes for tablet and computer screen sizes## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+
+## Header
+## Navigation Bar
+## Pages and Features
+### Favicon
+### About Us
+### Gallery
+### Contact form
+
+## Deployment
+### SETTING IT UP
+### Adding, committing and pushing code
+
+
+## Validator Testing
+### HTML - W3C validator
+### CSS - Jigsaw Validator
+### Lighthouse
+### WAVE
+## Technologies
+## Credits
