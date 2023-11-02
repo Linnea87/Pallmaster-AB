@@ -184,7 +184,7 @@ main {
     margin-bottom: 20px;
 }
 
-#service-offers p{
+#service-offers p {
     padding: 0 20px;
 }
 
@@ -218,18 +218,41 @@ main {
 
 /* styling of About Us page */
 #fact {
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 90%;
     padding-top: 20px;
     margin: 10px;
 
 }
+
 #fact h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
+/* Style of owner images */
+.column {
+    width: 25%;
+    display: block;
+}
+.column h2 {
+    font-size: 100%;
+}
+.title {
+    font-style: italic;
+}
 
+.card{
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.2);
+}
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    clear: both;
+    display: table;
+}
 /* Footer */
 footer {
     padding: 20px 0;
@@ -238,18 +261,16 @@ footer {
     justify-content: space-evenly;
     display: block;
     text-align: center;
-
-
-
 }
 
 
 /* Media query: tablets and larger (768px and up) borrowd from love running */
 @media screen and (min-width: 768px) {
-   img {
-    width: 140px;
-    height: auto;
-   }
+    img {
+        width: 140px;
+        height: auto;
+    }
+
     nav {
         padding-right: 1rem;
         display: block;
@@ -273,9 +294,9 @@ footer {
         display: none;
     }
 
-  main {
-    margin-top: 79px;
-  }
+    main {
+        margin-top: 79px;
+    }
 
     /* Hero */
     #cover-text {
@@ -300,41 +321,40 @@ footer {
     #offers-right div {
         text-align: end;
         align-self: flex-end;
-
-
     }
+
 }
-    
 
 @media screen and (min-width: 1200px) {
-  
+
     #service-offers {
         display: flex;
         flex-direction: row;
 
     }
 
-    #service-offers > div {
+    #service-offers>div {
         flex: 1;
     }
+
     #service-image {
         order: 0;
     }
-    
+
     #offers-right {
         order: 1;
 
     }
 
-    #offers-right > div {
-        align-self: flex-start;   
-    }
-    
-    #offers-left {
-    align-self: flex-end;
+    #offers-right>div {
+        align-self: flex-start;
     }
 
-    
+    #offers-left {
+        align-self: flex-end;
+    }
+
+
 
 
 }
