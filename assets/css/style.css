@@ -177,16 +177,22 @@ main {
     font-size: 280%;
 
 }
+#service h3 {
+    font-size: 100%;
+    text-align: center;
+
+}
 
 #offers-left>div,
 #offers-right>div {
-    line-height: 20px;
+    line-height: 25px;
     margin-bottom: 20px;
 }
 
 #service-offers p {
     padding: 0 20px;
 }
+
 
 #service-offers hr {
     border-top: 1px solid #221E1C;
@@ -220,42 +226,42 @@ main {
 #fact {
     font-family: 'Roboto', sans-serif;
     width: 90%;
-    padding-top: 20px;
-    margin: 10px;
-
+    margin-left:15px;
+    line-height: 25px; 
 }
-
+ 
 #fact h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
-/* Style of owner images */
-.column {
-    width: 25%;
+
+#fact hr {
+    border-top: 1px solid #221E1C;
+    margin: 5px 0;
+}
+
+#ceo, h3 {
+    text-align: center;
+}
+#ceo {
+    width: 100%;
     display: block;
-}
-.column h2 {
-    font-size: 100%;
-}
-.title {
-    font-style: italic;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
 }
 
-.card{
-    box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.2);
-}
-.container {
-    padding: 0 16px;
+#coo, h3 {
+    text-align: center;
 }
 
-.container::after, .row::after {
-    clear: both;
-    display: table;
+#coo {
+    width: 100%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    margin-bottom: 30px;
 }
 /* Footer */
 footer {
-    padding: 20px 0;
     display: flex;
     background-color: #ffffff;
     justify-content: space-evenly;
@@ -316,6 +322,7 @@ footer {
     #offers-left>div,
     #offers-right>div {
         width: 75%;
+
     }
 
     #offers-right div {
@@ -335,6 +342,7 @@ footer {
 
     #service-offers>div {
         flex: 1;
+
     }
 
     #service-image {
@@ -352,9 +360,12 @@ footer {
 
     #offers-left {
         align-self: flex-end;
+        
     }
 
-
+    #offers-right>div {
+    margin-left: 25%;
+    }
 
 
 }
