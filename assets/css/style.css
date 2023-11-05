@@ -241,25 +241,28 @@ main {
     margin: 5px 0;
 }
 
-#ceo, h3 {
+#ceo, #coo h3 {
     text-align: center;
 }
-#ceo {
+#ceo, #coo p {
+    text-align: center;
+}
+#ceo, #coo {
     width: 100%;
     display: block;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
-}
-
-#coo, h3 {
-    text-align: center;
 }
 
 #coo {
-    width: 100%;
-    display: block;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
     margin-bottom: 30px;
+ }
+#stefan, #johan {
+    width: 100%;
+    margin: 0 0px;
 }
+ 
+
+
 /* Footer */
 footer {
     display: flex;
