@@ -349,12 +349,15 @@ footer {
         margin-bottom: 30px;
     }
    
-
-
     #service-offers hr {
         width: 90%;
     }
-
+    #ceo, #coo {
+        float: left;
+        width:50%;
+      
+    }
+    
 
 }
 
