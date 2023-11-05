@@ -177,6 +177,7 @@ main {
     font-size: 280%;
 
 }
+
 #service h3 {
     font-size: 100%;
     text-align: center;
@@ -193,43 +194,34 @@ main {
     padding: 0 20px;
 }
 
-
 #service-offers hr {
     border-top: 1px solid #221E1C;
     margin: 5px 0;
 }
 
-/* styling offer image inspiration from love running */
-#circle-cover-bg {
-    background: url('../images/pallet.webp') no-repeat center center;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border-width: 2px;
-    max-width: 300px;
-    max-height: 300px;
+/* styling offer images inspiration from love running and w3schools.com */
+#repair-image,
+#special-image,
+#sorting-image,
+#depot-image {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    object-fit: contain;
     border-style: solid;
-    border-color: #7b6f65;
-    padding: 10px;
-    margin: 0 auto;
-
-}
-
-#service-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-color: #221E1C;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(34, 30, 28, 0.765);
 }
 
 /* styling of About Us page */
 #fact {
     font-family: 'Roboto', sans-serif;
     width: 90%;
-    margin-left:15px;
-    line-height: 25px; 
+    margin-left: 15px;
+    line-height: 25px;
 }
- 
+
 #fact h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -241,26 +233,33 @@ main {
     margin: 5px 0;
 }
 
-#ceo, #coo h3 {
+#ceo,
+#coo h3 {
     text-align: center;
 }
-#ceo, #coo p {
+
+#ceo,
+#coo p {
     text-align: center;
 }
-#ceo, #coo {
+
+#ceo,
+#coo {
     width: 100%;
     display: block;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(34, 30, 28, 0.765);
 }
 
 #coo {
     margin-bottom: 30px;
- }
-#stefan, #johan {
+}
+
+#stefan,
+#johan {
     width: 100%;
     margin: 0 0px;
 }
- 
+
 
 
 /* Footer */
@@ -273,13 +272,12 @@ footer {
 }
 
 
-/* Media query: tablets and larger (768px and up) borrowd from love running */
+/* Media query: tablets and larger (768px and up). Some codes are borrowd from love running. */
 @media screen and (min-width: 768px) {
     img {
         width: 140px;
         height: auto;
     }
-
     nav {
         padding-right: 1rem;
         display: block;
@@ -315,60 +313,48 @@ footer {
     }
 
     /* Service section */
-    #offers-left,
-    #offers-right {
+   .container1 {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #offers-left>div,
-    #offers-right>div {
-        width: 75%;
+        align-items: center;
+        justify-content: center;
 
     }
 
-    #offers-right div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
-}
-
-@media screen and (min-width: 1200px) {
-
-    #service-offers {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    #service-offers>div {
-        flex: 1;
-
-    }
-
-    #service-image {
-        order: 0;
-    }
-
-    #offers-right {
+    #container1-text {
+       margin-left: 50px;
         order: 1;
-
+    }
+    
+    #repair-image {
+        width: 50%;
     }
 
-    #offers-right>div {
-        align-self: flex-start;
+    #special-image {
+        width: 50%;
     }
-
-    #offers-left {
-        align-self: flex-end;
-        
+    
+    .container2 {
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
+    .container2-text {
+        margin-right: 50px;
+    }
+    #sorting-image{
+        width: 50%;
+    }
+    #depot-image{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+   
 
-    #offers-right>div {
-    margin-left: 25%;
+
+    #service-offers hr {
+        width: 90%;
     }
 
 
 }
+
