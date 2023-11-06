@@ -147,7 +147,7 @@ main {
 
 /* service section */
 #service {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
 }
 
@@ -246,17 +246,24 @@ margin-right: 0.1px;
     display: none;
 }
 div.gallery {
-    margin: 10px;
+    width: 100%;
+    margin-top: 10%;
+    justify-content: center;
+
 }
 div.gallery img {
     width: 90%;
-    justify-content: space-between;
     object-fit: contain;
     border-style: solid;
     border-color: #221E1C;
     border-width: 1px;
-    box-shadow: 0 4px 8px 0 rgba(34, 30, 28, 0.765); 
+    box-shadow: 0 4px 8px 0 rgba(34, 30, 28, 0.765);
 }
+#wooden-label {
+    margin-bottom: 10%;
+}
+
+
 /* Footer */
 footer {
     display: flex;
@@ -350,12 +357,13 @@ footer {
     div.gallery {
         width:50%;
         margin: 6px 0;
-        float: left;    
+        float: left;  
+        line-height: 0;
     }
    
     div.gallery img {
-        margin-top: 10px;
+        margin-top: 10%;
    }
-
+    
 }
 
