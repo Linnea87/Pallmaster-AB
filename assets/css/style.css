@@ -198,22 +198,22 @@ main {
     border-top: 1px solid #221E1C;
     margin: 5px 0;
 }
+.container1 {
+    background-color: #d1cac7;
+}
 
 /* styling offer images inspiration from love running and w3schools.com */
 #repair-image,
 #special-image,
 #sorting-image,
 #depot-image {
-    width: 100%;
-    height: auto;
-    margin: 0px;
+    width: 80%;
     object-fit: contain;
     border-style: solid;
     border-color: #221E1C;
     border-width: 1px;
     box-shadow: 0 4px 8px 0 rgba(34, 30, 28, 0.765);
 }
-
 /* styling of About Us page */
 #fact {
     font-family: 'Roboto', sans-serif;
@@ -243,25 +243,25 @@ main {
     text-align: center;
 }
 
-#ceo,
-#coo {
+.column {
     width: 100%;
-    display: block;
+    height: auto;
     box-shadow: 0 4px 8px 0 rgb(34, 30, 28, 0.765);
 }
 
 #coo {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-
-#stefan,
+#stefan {
+width: 100%;
+margin-left: 0.1px;
+margin-right: 0.1px;
+}
 #johan {
     width: 100%;
-    margin: 0 0px;
+    margin-left: 0.1px;
+    margin-right: 0.1px;
 }
-
-
-
 /* Footer */
 footer {
     display: flex;
@@ -317,11 +317,17 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+       
 
     }
 
+    #service-offers p {
+
+    
+    }
+
     #container1-text {
-       margin-left: 50px;
+       margin-left: 20px;
         order: 1;
     }
     
@@ -351,11 +357,6 @@ footer {
    
     #service-offers hr {
         width: 90%;
-    }
-    #ceo, #coo {
-        float: left;
-        width:50%;
-      
     }
     
 
