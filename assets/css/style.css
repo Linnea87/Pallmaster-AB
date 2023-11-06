@@ -16,8 +16,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #221E1C;
     background-color: #E1DDDB;
-
-
 }
 
 h1,
@@ -26,7 +24,6 @@ h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-
 }
 
 header {
@@ -44,7 +41,6 @@ header {
 header a {
     text-decoration: none;
     color: #221E1C;
-
 }
 
 /* Styling of my own designd logo in header */
@@ -53,7 +49,6 @@ img {
     height: auto;
     margin: 0 1rem;
     object-fit: contain;
-
 }
 
 /* Styling navbar using love runnig and w3schools.com */
@@ -66,7 +61,6 @@ ul {
     text-align: center;
     margin: 0;
     padding: 0;
-
 }
 
 ul>li {
@@ -76,7 +70,6 @@ ul>li {
 .active {
     background-color: #E1DDDB;
     border-radius: 4px;
-
 }
 
 a:hover {
@@ -94,12 +87,10 @@ nav {
     display: none;
     top: 100%;
     box-shadow: 0 2px 2px #221e1c;
-
 }
 
 #nav-drop:checked~nav {
     display: block;
-
 }
 
 #nav-drop {
@@ -109,16 +100,11 @@ nav {
 .nav-drop-icon {
     font-size: 2rem;
     color: #221E1C;
-
-
 }
 
 .nav-drop:hover {
     background: #d1cac7;
     border-radius: 4px;
-
-
-
 }
 
 /* Main content */
@@ -129,9 +115,7 @@ main {
     flex-direction: column;
 }
 
-
 /* Hero section code from love running with some own modification */
-
 #hero {
     height: 400px;
     width: 100%;
@@ -151,7 +135,6 @@ main {
     border-radius: 10px;
     position: absolute;
     text-align: center;
-
 }
 
 #cover-text h1 {
@@ -160,28 +143,23 @@ main {
 
 #cover-text>p {
     font-style: italic;
-
-
 }
 
 /* service section */
 #service {
     width: 90%;
     margin: 20px auto;
-
 }
 
 #service h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
-
 }
 
 #service h3 {
     font-size: 100%;
     text-align: center;
-
 }
 
 #offers-left>div,
@@ -207,7 +185,7 @@ main {
 #special-image,
 #sorting-image,
 #depot-image {
-    width: 80%;
+    width: 90%;
     object-fit: contain;
     border-style: solid;
     border-color: #221E1C;
@@ -262,6 +240,23 @@ margin-right: 0.1px;
     margin-left: 0.1px;
     margin-right: 0.1px;
 }
+
+/* Styling Gallery page with with some code from W3schools.com */
+.hidden-heading {
+    display: none;
+}
+div.gallery {
+    margin: 10px;
+}
+div.gallery img {
+    width: 90%;
+    justify-content: space-between;
+    object-fit: contain;
+    border-style: solid;
+    border-color: #221E1C;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(34, 30, 28, 0.765); 
+}
 /* Footer */
 footer {
     display: flex;
@@ -271,13 +266,15 @@ footer {
     text-align: center;
 }
 
+/* Media query with some parts of code used from love running project. */
 
-/* Media query: tablets and larger (768px and up). Some codes are borrowd from love running. */
 @media screen and (min-width: 768px) {
+    /* Company logo*/
     img {
         width: 140px;
         height: auto;
     }
+    /* the nav.bar*/
     nav {
         padding-right: 1rem;
         display: block;
@@ -288,24 +285,21 @@ footer {
 
     ul {
         display: flex;
-
     }
 
     ul>li {
         padding-left: 1rem;
-
-
     }
 
     .nav-drop-icon {
         display: none;
     }
-
+    /* main section in every page */
     main {
         margin-top: 79px;
     }
 
-    /* Hero */
+    /* Hero section */
     #cover-text {
         width: 300px;
         right: 50px;
@@ -317,13 +311,6 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-       
-
-    }
-
-    #service-offers p {
-
-    
     }
 
     #container1-text {
@@ -359,6 +346,16 @@ footer {
         width: 90%;
     }
     
+    /* Gallery section */
+    div.gallery {
+        width:50%;
+        margin: 6px 0;
+        float: left;    
+    }
+   
+    div.gallery img {
+        margin-top: 10px;
+   }
 
 }
 
