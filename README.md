@@ -2,6 +2,8 @@
 
 This website is intended to provide comprehensive information about the company Pallmaster AB. As a new and existing customer, you get to take part in the company's history, who runs the company now, what service the company offers and how you get in touch with the company. As a customer, you also get to see pictures of some of the company's various products.
 
+<img src="docs/readme_images/mockup.png" alt="mockup image">
+
 ## Planning
 
 ### Goals
