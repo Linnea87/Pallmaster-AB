@@ -177,10 +177,6 @@ main {
     margin: 5px 0;
 }
 
-.container1 {
-    background-color: #d1cac7;
-}
-
 /* styling service images inspiration from love running and w3schools.com */
 #repair-image,
 #special-image,
@@ -278,6 +274,48 @@ div.gallery img {
     margin-bottom: 10%;
 }
 
+ /* Styling the form */
+ #contact {
+    font-family: Roboto, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #221e1cb0;
+    padding: 30px;
+    color: white;
+}
+#contact h2 {
+    text-align: center;
+}
+#contact p {
+    text-align: center;
+    font-style: italic;
+}
+/* css styling of input, select and textarea with inspiration from W3Schools */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+/* styling the submit button */
+#button [type=submit] {
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 5px;
+}
 
 /* Footer */
 footer {
