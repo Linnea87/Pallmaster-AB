@@ -274,14 +274,14 @@ div.gallery img {
     margin-bottom: 10%;
 }
 
- /* Styling the form */
+ /* Contact form */
  #contact {
     font-family: Roboto, sans-serif;
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #221e1cb0;
+    background-color: rgba(62, 56, 50, 0.781);
     padding: 30px;
     color: white;
 }
@@ -309,7 +309,7 @@ textarea {
 
 
 /* styling the submit button */
-#button [type=submit] {
+#contact button[type=submit] {
     font-family: Roboto, sans-serif;
     background-color: #ffffff;
     padding: 10px 20px;
