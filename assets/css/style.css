@@ -316,7 +316,11 @@ textarea {
     border: solid;
     border-radius: 5px;
 }
-
+/* styling the submit page  */
+#main-heading {
+    text-align: center;
+    margin-top: 20px;
+}
 /* Footer */
 footer {
     display: flex;
