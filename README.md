@@ -53,21 +53,27 @@ The business owner will;
 ### wierframes
 I created wierframes from balsamic to visualize what I wanted the finished design to look like. I started creating wierframes for
  mobile devices first because I wanted to stick with the mobile-first approach, then I created wierframes for tablet and computer screen sizes.
- 
+
+### The index page
+During the process I changed the design on the index page as I thought that the one I drew/planned didn't turn out well in reality.
+
  <img src="docs/readme_images/Home.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
+
+### Abou Us page
 
 <img src="docs/readme_images/About us.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
 
+### Gallery page
  <img src="docs/readme_images/Gallery.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
 
+### Contact page
  <img src="docs/readme_images/Contact.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+### color
+When it came to choosing colors for the website, I wanted the colors to go in the beige/brown direction, which creates a red thread to the website's content. To achieve this I used https://coolors.co to create these "wood colors".
+
+<img src="docs/readme_images/colors.png" alt="color scheme">
+
 
 ## Header
 ## Navigation Bar
@@ -90,7 +96,15 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Adding, committing and pushing code
 
+## Testing
 
+* Manually tested all navigation links on every page.
+* Manually tested opening the site in different browsers.
+* Tested to skip filling in the contact form - submit button did not work until I filled in the information properly, hence the 'required' attribute is working.
+* Came to the page 'submit.html' when filling in Contact Form and clicking on Submit.
+* Gallery - all images are showing and gallery is flexible depending on screen size.
+
+### Bugs
 ## Validator Testing
 ### HTML - W3C validator
 ### CSS - Jigsaw Validator
