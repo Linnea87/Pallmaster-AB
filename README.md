@@ -77,6 +77,15 @@ I created wierframes from balsamic to visualize what I wanted the finished desig
 
 ## Deployment
 ### SETTING IT UP
+I used Code Institute's instructional video on how to deploy my website. I paused the video and followed the instructions. Text and steps below are copied from Code Institutes instructions on how to deploy the site to GitHub.
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Master Branch
+3. Once the master branch has been selected, the page will be automatically     refreshed with a detailed ribbon display to indicate the successful deployment.
+4. The live link can be found here - https://linnea87.github.io/Pallmaster-AB/
+
 ### Adding, committing and pushing code
 
 
