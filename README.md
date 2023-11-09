@@ -59,7 +59,7 @@ During the process I changed the design on the index page as I thought that the 
 
  <img src="docs/readme_images/Home.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
 
-### Abou Us page
+### About Us page
 
 <img src="docs/readme_images/About us.png" alt="screenshot-home" style="display:inline-block; margin: 0 auto; max-width:200px;">
 
@@ -73,7 +73,6 @@ During the process I changed the design on the index page as I thought that the 
 When it came to choosing colors for the website, I wanted the colors to go in the beige/brown direction, which creates a red thread to the website's content. To achieve this I used https://coolors.co to create these "wood colors".
 
 <img src="docs/readme_images/colors.png" alt="color scheme">
-
 
 ## Header
 ## Navigation Bar
