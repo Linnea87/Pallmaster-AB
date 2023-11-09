@@ -28,7 +28,7 @@ h3 {
 
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 3rem;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -44,10 +44,9 @@ header a {
 }
 
 /* Styling of my own designd logo in header */
-img {
-    width: 100px;
+#logo {
+    width: 110px;
     height: auto;
-    margin: 0 1rem;
     object-fit: contain;
 }
 
@@ -183,6 +182,8 @@ main {
 #sorting-image,
 #depot-image {
     width: 90%;
+    height: auto;
+    margin-left: 10px;
     object-fit: contain;
     border-style: solid;
     border-color: #221E1C;
@@ -251,6 +252,8 @@ div.gallery {
 
 div.gallery img {
     width: 90%;
+    height: auto;
+    margin-left: 15px;
     object-fit: contain;
     border-style: solid;
     border-color: #221E1C;
@@ -323,9 +326,10 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Company logo*/
-    img {
-        width: 140px;
-        height: auto;
+    #logo {
+        width: 160px;
+        margin-bottom: -20px;
+        margin-left: 10%;
     }
 
     /* the nav.bar*/
@@ -360,40 +364,40 @@ footer {
         right: 50px;
 
     }
+
     /* About us section */
     .column {
         float: left;
         width:50%;
-
         padding: 0 30px;
     }
     .card2 {
         margin-top:-1.2em;
     }
-       
-
-   
-   
     /* Gallery section */
     div.gallery {
         width: 50%;
         margin: 6px 0;
         float: left;
     }
-
     div.gallery img {
-        margin-top: 10%;
+        margin-top:10px;
+        margin-left:5%;
     }
-    
+    #repair-image,
+    #special-image,
+    #sorting-image,
+    #depot-image{
+        margin-left:5%;
+    }
     
 }
 @media screen and (min-width: 992px){
  /* Service section */
 
- .container1 {
+ .container1, .container2 {
     display: flex;
     align-items: center;
-    justify-content: center;
     }
 
     #container1-text {
@@ -401,30 +405,11 @@ footer {
     order: 1;
     }
 
-    #repair-image {
-    width: 50%;
+    #repair-image, #special-image {
+    margin-left: 0;
     }
-
-    #special-image {
-    width: 50%;
-    }
-
-    .container2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .container2-text {
-    margin-right: 50px;
-    }
-
-    #sorting-image {
-    width: 50%;
-    }
-
+    
     #depot-image {
-    width: 50%;
     margin-bottom: 30px;
     }
 
