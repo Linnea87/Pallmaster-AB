@@ -215,7 +215,7 @@ Have Errors in index.html [W3C validator] https://github.com/Linnea87/Pallmaster
 Site has been tested at [Wave](https://wave.webaim.org/report#/https://rackstorm.github.io/Code-Institute_Project-1/)
 The only alert was that there is a
 redundant link to the header.
-*2 errors because ther missing two form labels
+*2 errors because there are missing two form labels
 
 ## Technologies
 
